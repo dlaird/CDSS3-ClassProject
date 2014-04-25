@@ -4,10 +4,15 @@
 ##Course #3 - Class Project
 
 Subject - Code from 1:30 for number of test subject
+
 Activity - Activity when reading was taken
+
 tBodyAcc-mean()-X
+
 tBodyAcc-mean()-Y
+
 tBodyAcc-mean()-Z
+
 tBodyAcc-std()-X
 tBodyAcc-std()-Y
 tBodyAcc-std()-Z
