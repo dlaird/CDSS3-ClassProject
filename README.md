@@ -40,10 +40,15 @@ Activities during which the numerical data was collected are provided in separat
 Then descriptive names are assigned to each activity code, as follows:
 
 *WALKING=1*
+
 *WALKING_UPSTAIRS=2*
+
 *WALKING_DOWNSTAIRS=3*
+
 *SITTING=4*
+
 *STANDING=5*
+
 *LAYING=6*
 
 Next, these descriptive names are added as a new column to the two datasets containing the activity codes, and in a separate step the new column is added to each of the datasets containing the numerical data.
