@@ -1,9 +1,9 @@
 
-#Coursera Data Science Specialization Course #3 - Class Project
-#==============================================================
+#Coursera Data Science Specialization 
+#Course #3 - Class Project
 
-##Run script:  run_analysis.R
-##Script output:  ProjectOutput.txt
+###Run script:  run_analysis.R
+###Script output:  ProjectOutput.txt
 
 ##How the run_analysis.R Script Works
 
@@ -15,11 +15,11 @@ The zip file should be uncompressed and the contents placed the working director
 
 run_analysis.R then processes the datafiles to complete the following steps:
 
-1 Merges the training and the test sets to create one data set.
-2 Extracts only the measurements on the mean and standard deviation for each measurement.
-3 Uses descriptive activity names to name the activities in the data set.
-4 Appropriately labels the data set with descriptive activity names.
-5 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set.
+4. Appropriately labels the data set with descriptive activity names.
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### Step 1: Merges the training and the test sets to create one data set.
 -------------------------------------------------------------------------
@@ -59,8 +59,7 @@ At this point there are two data sets, one for training data and one for test da
 ------------------------------------------------------------------------------
 Requirements call for a new dataset to be created that contains only the columns with mean and standard deviation data.  Whether or not a column contains these data can be determined by the column name.  run_analysis.R reads the column name data set and tests each column name for the presence of the string "mean" and the string "std", recording the column number of the desired columns.  Since columns have been added to the left of the numerical columns for subject and activity code, column numbers are incremented by two to reflect their new position.  These columns and the two new columns are then extracted into a new dataset.
 
-### Step 3: Uses descriptive activity names to name the activities in the data set.
-### and 
+### Step 3: Uses descriptive activity names to name the activities in the data set, and 
 ### Step 4: Appropriately labels the data set with descriptive activity names.
 -----------------------------------------------------------------------------------
 These two requirements call for giving the activities and numerical columns meaningful descriptions.  These have been taken care of in Step 1 as part of the process of combining the training and test datasets.
