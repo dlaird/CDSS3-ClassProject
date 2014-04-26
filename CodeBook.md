@@ -6,163 +6,168 @@
 
 Subject - Code from 1:30 for number of test subject
 
-Activity - Activity when reading was taken
+Activity - Activity when reading was taken:
+                  WALKING=1
+                  WALKING_UPSTAIRS=2
+                  WALKING_DOWNSTAIRS=3
+                  SITTING=4
+                  STANDING=5
+                  LAYING=6
 
-tBodyAcc-mean()-X
+meantBodyAcc-mean()-X
 
-tBodyAcc-mean()-Y
+meantBodyAcc-mean()-Y
 
-tBodyAcc-mean()-Z
+meantBodyAcc-mean()-Z
 
-tBodyAcc-std()-X
+meantBodyAcc-std()-X
 
-tBodyAcc-std()-Y
+meantBodyAcc-std()-Y
 
-tBodyAcc-std()-Z
+meantBodyAcc-std()-Z
 
-tGravityAcc-mean()-X
+meantGravityAcc-mean()-X
 
-tGravityAcc-mean()-Y
+meantGravityAcc-mean()-Y
 
-tGravityAcc-mean()-Z
+meantGravityAcc-mean()-Z
 
-tGravityAcc-std()-X
+meantGravityAcc-std()-X
 
-tGravityAcc-std()-Y
+meantGravityAcc-std()-Y
 
-tGravityAcc-std()-Z
+meantGravityAcc-std()-Z
 
-tBodyAccJerk-mean()-X
+meantBodyAccJerk-mean()-X
 
-tBodyAccJerk-mean()-Y
+meantBodyAccJerk-mean()-Y
 
-tBodyAccJerk-mean()-Z
+meantBodyAccJerk-mean()-Z
 
-tBodyAccJerk-std()-X
+meantBodyAccJerk-std()-X
 
-tBodyAccJerk-std()-Y
+meantBodyAccJerk-std()-Y
 
-tBodyAccJerk-std()-Z
+meantBodyAccJerk-std()-Z
 
-tBodyGyro-mean()-X
+meantBodyGyro-mean()-X
 
-tBodyGyro-mean()-Y
+meantBodyGyro-mean()-Y
 
-tBodyGyro-mean()-Z
+meantBodyGyro-mean()-Z
 
-tBodyGyro-std()-X
+meantBodyGyro-std()-X
 
-tBodyGyro-std()-Y
+meantBodyGyro-std()-Y
 
-tBodyGyro-std()-Z
+meantBodyGyro-std()-Z
 
-tBodyGyroJerk-mean()-X
+meantBodyGyroJerk-mean()-X
 
-tBodyGyroJerk-mean()-Y
+meantBodyGyroJerk-mean()-Y
 
-tBodyGyroJerk-mean()-Z
+meantBodyGyroJerk-mean()-Z
 
-tBodyGyroJerk-std()-X
+meantBodyGyroJerk-std()-X
 
-tBodyGyroJerk-std()-Y
+meantBodyGyroJerk-std()-Y
 
-tBodyGyroJerk-std()-Z
+meantBodyGyroJerk-std()-Z
 
-tBodyAccMag-mean()
+meantBodyAccMag-mean()
 
-tBodyAccMag-std()
+meantBodyAccMag-std()
 
-tGravityAccMag-mean()
+meantGravityAccMag-mean()
 
-tGravityAccMag-std()
+meantGravityAccMag-std()
 
-tBodyAccJerkMag-mean()
+meantBodyAccJerkMag-mean()
 
-tBodyAccJerkMag-std()
+meantBodyAccJerkMag-std()
 
-tBodyGyroMag-mean()
+meantBodyGyroMag-mean()
 
-tBodyGyroMag-std()
+meantBodyGyroMag-std()
 
-tBodyGyroJerkMag-mean()
+meantBodyGyroJerkMag-mean()
 
-tBodyGyroJerkMag-std()
+meantBodyGyroJerkMag-std()
 
-fBodyAcc-mean()-X
+meanfBodyAcc-mean()-X
 
-fBodyAcc-mean()-Y
+meanfBodyAcc-mean()-Y
 
-fBodyAcc-mean()-Z
+meanfBodyAcc-mean()-Z
 
-fBodyAcc-std()-X
+meanfBodyAcc-std()-X
 
-fBodyAcc-std()-Y
+meanfBodyAcc-std()-Y
 
-fBodyAcc-std()-Z
+meanfBodyAcc-std()-Z
 
-fBodyAcc-meanFreq()-X
+meanfBodyAcc-meanFreq()-X
 
-fBodyAcc-meanFreq()-Y
+meanfBodyAcc-meanFreq()-Y
 
-fBodyAcc-meanFreq()-Z
+meanfBodyAcc-meanFreq()-Z
 
-fBodyAccJerk-mean()-X
+meanfBodyAccJerk-mean()-X
 
-fBodyAccJerk-mean()-Y
+meanfBodyAccJerk-mean()-Y
 
-fBodyAccJerk-mean()-Z
+meanfBodyAccJerk-mean()-Z
 
-fBodyAccJerk-std()-X
+meanfBodyAccJerk-std()-X
 
-fBodyAccJerk-std()-Y
+meanfBodyAccJerk-std()-Y
 
-fBodyAccJerk-std()-Z
+meanfBodyAccJerk-std()-Z
 
-fBodyAccJerk-meanFreq()-X
+meanfBodyAccJerk-meanFreq()-X
 
-fBodyAccJerk-meanFreq()-Y
+meanfBodyAccJerk-meanFreq()-Y
 
-fBodyAccJerk-meanFreq()-Z
+meanfBodyAccJerk-meanFreq()-Z
 
-fBodyGyro-mean()-X
+meanfBodyGyro-mean()-X
 
-fBodyGyro-mean()-Y
+meanfBodyGyro-mean()-Y
 
-fBodyGyro-mean()-Z
+meanfBodyGyro-mean()-Z
 
-fBodyGyro-std()-X
+meanfBodyGyro-std()-X
 
-fBodyGyro-std()-Y
+meanfBodyGyro-std()-Y
 
-fBodyGyro-std()-Z
+meanfBodyGyro-std()-Z
 
-fBodyGyro-meanFreq()-X
+meanfBodyGyro-meanFreq()-X
 
-fBodyGyro-meanFreq()-Y
+meanfBodyGyro-meanFreq()-Y
 
-fBodyGyro-meanFreq()-Z
+meanfBodyGyro-meanFreq()-Z
 
-fBodyAccMag-mean()
+meanfBodyAccMag-mean()
 
-fBodyAccMag-std()
+meanfBodyAccMag-std()
 
-fBodyAccMag-meanFreq()
+meanfBodyAccMag-meanFreq()
 
-fBodyBodyAccJerkMag-mean()
+meanfBodyBodyAccJerkMag-mean()
 
-fBodyBodyAccJerkMag-std()
+meanfBodyBodyAccJerkMag-std()
 
-fBodyBodyAccJerkMag-meanFreq()
+meanfBodyBodyAccJerkMag-meanFreq()
 
-fBodyBodyGyroMag-mean()
+meanfBodyBodyGyroMag-mean()
 
-fBodyBodyGyroMag-std()
+meanfBodyBodyGyroMag-std()
 
-fBodyBodyGyroMag-meanFreq()
+meanfBodyBodyGyroMag-meanFreq()
 
-fBodyBodyGyroJerkMag-mean()
+meanfBodyBodyGyroJerkMag-mean()
 
-fBodyBodyGyroJerkMag-std()
+meanfBodyBodyGyroJerkMag-std()
 
-fBodyBodyGyroJerkMag-meanFreq()
-
+meanfBodyBodyGyroJerkMag-meanFreq()
